@@ -1,0 +1,7 @@
+time := hour ampm | hour : minute ampm | hour : minute
+ampm := am | pm
+hour := hour-tens digit | digit
+minute := minute-tens digit
+hour-tens := 0|1
+minute-tens := 0|1|2|3|4|5
+digit := 0|1|2|3|4|5|6|7|8|9
